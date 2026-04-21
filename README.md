@@ -131,7 +131,7 @@ n_list = []
 c_list = []
 e = 127
 
-io = remote('10.10.70.220', 60271)
+io = remote('', )
 for i in range(e):
     io.recvuntil(b"input>")
     io.sendline(b"1")
